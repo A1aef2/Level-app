@@ -3,7 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import { Accelerometer } from 'expo-sensors';
 
 export default function App() {
-  const [data, setData] = useState({ x: 0, y: 0, z: 0 });
+  const [data, setData] = useState({ x: 0, y: 0, z: 0 
 
   useEffect(() => {
     Accelerometer.setUpdateInterval(100);
